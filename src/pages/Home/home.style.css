@@ -1,0 +1,32 @@
+.sectionone_wrapper {
+    display: flex;
+    width: 100%;   
+    max-width: 1500px; 
+    background: linear-gradient(to right, #cfabf5, #dfd5f5, #ffffff); 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 100px ;
+  }
+
+  .sectionone_wrapper h1 {
+    font-size: 50px;
+  }
+
+  .sectionone_left {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .sectionone_right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .sectionone_right img {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 40px;
+  }

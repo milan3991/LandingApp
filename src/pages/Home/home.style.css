@@ -93,7 +93,7 @@
   max-width: 1600px;
   gap: 70px;
   justify-content: center;
-  
+
 }
 
 .section_part {
@@ -118,4 +118,55 @@
 .sectionthreeimg {
   width: 100%;
   max-width: 70px;
+}
+
+/*section four*/
+
+.sectionfour_wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.sectionfour_left {
+  width: 100%;
+  max-width: 500px;
+  font-size: 20px;
+}
+
+.sectionfour_right {
+  width: 100%;
+  max-width: 800px;
+}
+
+.sectionfour_right img {
+  width: 100%;
+  max-width: 750px;
+}
+
+/*section five*/
+
+.sectionfive_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1500px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  color: white;
+}
+
+.sectionfive_buttons {
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  justify-content: center;
+  align-items: center;
+  gap: 270px;
 }

@@ -36,6 +36,11 @@ import tableau from '../assets/logos/tableau.png';
 import uploaddata from '../assets/logos/uploaddata.png';
 import zendesk from '../assets/logos/zendesk.png';
 import zeppelin from '../assets/logos/zeppelin.png';
+import starter from './starter.svg';
+import pro from './pro.svg';
+import bussines from './bussines.svg';
+import enterprise from './enterprise.svg';
+
 
 const Motorsport = () => {
     return <img src={motorsport} />
@@ -189,6 +194,19 @@ const Zeppelin = () => {
     return <img src={zeppelin} className='partnerimg'/>
 }
 
+const Starter = () => {
+    return <img src={starter} className='sectionsevenimg'/>
+}
+
+const Pro = () => {
+    return <img src={pro} className='sectionsevenimg'/>
+}
+const Bussines = () => {
+    return <img src={bussines} className='sectionsevenimg'/>
+}
+const Enterprise = () => {
+    return <img src={enterprise} className='sectionsevenimg'/>
+}
 
 export {
     Motorsport,
@@ -228,5 +246,9 @@ export {
     Tableau,
     Uploaddata,
     Zendesk,
-    Zeppelin
+    Zeppelin,
+    Starter,
+    Pro,
+    Bussines,
+    Enterprise
 };

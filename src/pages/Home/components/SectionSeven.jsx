@@ -41,8 +41,10 @@ const SectionSeven = () => {
 
     return (
         <div className="section_seven_wrapper">
+            <div className='section_seven_heading'>
                 <h1>Simple and transparent price</h1>
                 <h3>All plans have a 21 day fri trial period.No credit card required</h3>
+                </div>
             <div className="section_seven_cards">
                 {plans.map((plan) => (
                     <SectionSevenCard
